@@ -1,0 +1,987 @@
+# Copyright (C) 2022 ThemeRox
+# This file is distributed under the same license as the Ayyash Studio plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Ayyash Studio 1.0.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/ayyash-studio\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-08-21T03:50:52+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.6.0\n"
+"X-Domain: ayyash-studio\n"
+
+#. Plugin Name of the plugin
+#: ayyash-studio.php:82
+#: includes/AyyashStudio.php:176
+#: includes/TemplateLibrary/TemplateLibrary.php:46
+#: build/admin.js:1
+#: src/component/Header/index.js:134
+msgid "Ayyash Studio"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://themeoo.com/"
+msgstr ""
+
+#. Description of the plugin
+msgid "Create pixel-perfect website within a few clicks with “Ayyash Studio”. Import pre-built sites, tweak palette, font-pair, contents. You are ready to go!"
+msgstr ""
+
+#. Author of the plugin
+msgid "ThemeRox"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://themerox.com/"
+msgstr ""
+
+#. translators: 1. Download link for production build, 2. composer install command, 3. Plugin installation path for running composer install..
+#: ayyash-studio.php:81
+msgid "It seems that you have downloaded the development version of %1$s plugin from github or other sources. Please download it from %2$s or run %3$s command within %4$s directory."
+msgstr ""
+
+#. translators: 1: error message 2: file name and path 3: line number
+#: includes/AyyashStudio.php:121
+#: includes/AyyashStudioErrorHandler.php:143
+msgid "%1$s in %2$s on line %3$s"
+msgstr ""
+
+#. translators: %1$s Ayyash theme name, %2$s Ayyash Studio plugin name.
+#: includes/AyyashStudio.php:174
+msgid "Your current theme (%1$s) does not support %2$s. To use  %2$s please install and activate %1$s or any of it's supported theme."
+msgstr ""
+
+#: includes/AyyashStudio.php:175
+msgid "Ayyash"
+msgstr ""
+
+#. translators: %s Ayyash theme name.
+#: includes/AyyashStudio.php:182
+msgid "Install & Activate %s"
+msgstr ""
+
+#. translators: 1: error message 2: file name and path 3: line number 4: Backtrace Label (Backtrace:) 5: Backtrace data.
+#: includes/AyyashStudioErrorHandler.php:95
+msgid "%1$s in %2$s on line %3$s. %4$s %5$s"
+msgstr ""
+
+#: includes/AyyashStudioErrorHandler.php:99
+msgid "Backtrace:"
+msgstr ""
+
+#: includes/AyyashStudioErrorHandler.php:108
+#: includes/AyyashStudioErrorHandler.php:154
+msgid "Error while processing your request."
+msgstr ""
+
+#: includes/Client/Client.php:142
+msgid "Invalid API Response from Ayyash Studio"
+msgstr ""
+
+#: includes/Client/Client.php:177
+#: includes/Client/Client.php:187
+msgid "Invalid Site ID"
+msgstr ""
+
+#. translators: 1: is_ayyash_studio_supported 2: after_setup_theme
+#: includes/helpers.php:66
+msgid "%1$s should not be called before the %2$s action."
+msgstr ""
+
+#: includes/helpers.php:113
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#. translators: %s: User invoked ajax action name/label.
+#: includes/helpers.php:117
+msgid "You are not allowed to %s."
+msgstr ""
+
+#. translators: 1: class name 2: ayyash_studio_logging_class 3: Logger_Interface
+#: includes/helpers/logger.php:79
+msgid "The class %1$s provided by %2$s filter must implement %3$s."
+msgstr ""
+
+#: includes/Importer/Importer.php:96
+msgid "Invalid Site"
+msgstr ""
+
+#: includes/Importer/LibraryDataImporter.php:163
+msgid "Page number is required for importing sites."
+msgstr ""
+
+#: includes/Importer/Traits/Plugin.php:59
+msgid "Plugin Activated"
+msgstr ""
+
+#: includes/Importer/Traits/Plugin.php:64
+#: includes/Importer/Traits/Plugin.php:85
+msgid "Invalid Request"
+msgstr ""
+
+#: includes/Importer/Traits/Theme.php:41
+msgid "Theme Activated."
+msgstr ""
+
+#: includes/Importer/Types/CustomizerImporter.php:100
+#: includes/Importer/Types/OptionsImporter.php:140
+#: includes/Importer/Types/WidgetsImporter.php:79
+msgid "Missing Current Site Data."
+msgstr ""
+
+#: includes/Importer/Types/WidgetsImporter.php:125
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: includes/Importer/Types/WidgetsImporter.php:167
+msgid "Widget area does not exist in theme (using Inactive)"
+msgstr ""
+
+#: includes/Importer/Types/WidgetsImporter.php:191
+msgid "Site does not support widget"
+msgstr ""
+
+#: includes/Importer/Types/WidgetsImporter.php:226
+msgid "Widget already exists"
+msgstr ""
+
+#: includes/Importer/Types/WidgetsImporter.php:292
+msgid "Imported"
+msgstr ""
+
+#: includes/Importer/Types/WidgetsImporter.php:295
+msgid "Imported to Inactive"
+msgstr ""
+
+#: includes/Importer/Types/WidgetsImporter.php:301
+msgid "No Title"
+msgstr ""
+
+#: includes/Importer/Types/XMLContentImporter.php:81
+msgid "The XMLReader library is not available. This library is required to import the content for the website."
+msgstr ""
+
+#: includes/Importer/Types/XMLContentImporter.php:119
+msgid "Error Reading Site Data."
+msgstr ""
+
+#: includes/Importer/Wxr/StudioImporter.php:283
+msgid "WXR File missing."
+msgstr ""
+
+#: includes/Importer/Wxr/StudioImporter.php:396
+msgid "Import complete!"
+msgstr ""
+
+#: includes/Importer/Wxr/WXR_Importer.php:238
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#. translators: %1$s is WXR version, %2$s is max supported WXR version.
+#: includes/Importer/Wxr/WXR_Importer.php:276
+#: includes/Importer/Wxr/WXR_Importer.php:395
+#: includes/Importer/Wxr/WXR_Importer.php:471
+msgid "This WXR file (version %1$s) is newer than the importer (version %2$s) and may not be supported. Please consider updating."
+msgstr ""
+
+#: includes/Importer/Wxr/WXR_Importer.php:622
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: includes/Importer/Wxr/WXR_Importer.php:682
+msgid "Invalid author mapping"
+msgstr ""
+
+#: includes/Importer/Wxr/WXR_Importer.php:783
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#. translators: %1$s is the import message, %2$s is post type.
+#: includes/Importer/Wxr/WXR_Importer.php:880
+msgid "Failed to import \"%1$s\": Invalid post type %2$s"
+msgstr ""
+
+#. translators: %1$s single post type, %2$s is post title.
+#: includes/Importer/Wxr/WXR_Importer.php:892
+msgid "%1$s \"%2$s\" already exists."
+msgstr ""
+
+#. translators: %s is post title
+#: includes/Importer/Wxr/WXR_Importer.php:990
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#. translators: %1$s is the post title, %2$s is post type.
+#: includes/Importer/Wxr/WXR_Importer.php:1014
+msgid "Failed to import \"%1$s\" (%2$s)"
+msgstr ""
+
+#. translators: %1$s is the post title, %2$s is post type.
+#: includes/Importer/Wxr/WXR_Importer.php:1049
+msgctxt "Process Post"
+msgid "Imported \"%1$s\" (%2$s)"
+msgstr ""
+
+#. translators: %1$s is the original post id, %2$s is old post id.
+#: includes/Importer/Wxr/WXR_Importer.php:1057
+msgid "Post %1$d remapped to %2$d"
+msgstr ""
+
+#: includes/Importer/Wxr/WXR_Importer.php:1210
+msgid "Invalid file type"
+msgstr ""
+
+#. translators: %s user login name
+#: includes/Importer/Wxr/WXR_Importer.php:1714
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#. translators: %s user login name
+#: includes/Importer/Wxr/WXR_Importer.php:1738
+msgid "Imported user \"%s\""
+msgstr ""
+
+#. translators: %1$s original user Id, %2$s old user Id.
+#: includes/Importer/Wxr/WXR_Importer.php:1745
+msgid "User %1$d remapped to %2$d"
+msgstr ""
+
+#. translators: %1$s is the taxonomy, %2$s is taxonomy name.
+#: includes/Importer/Wxr/WXR_Importer.php:1910
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#. translators: %1$s is the taxonomy name, %2$s is taxonomy.
+#: includes/Importer/Wxr/WXR_Importer.php:1937
+msgctxt "Process Taxonomy Term"
+msgid "Imported \"%1$s\" (%2$s)"
+msgstr ""
+
+#. translators: %1$s is term original id, %2$s is term id.
+#: includes/Importer/Wxr/WXR_Importer.php:1945
+msgid "Term %1$d remapped to %2$d"
+msgstr ""
+
+#. translators: %1$s is error code, %2$s is error code header, %3$s is url.
+#: includes/Importer/Wxr/WXR_Importer.php:2003
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: includes/Importer/Wxr/WXR_Importer.php:2016
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: includes/Importer/Wxr/WXR_Importer.php:2021
+msgid "Zero size file downloaded"
+msgstr ""
+
+#. translators: %s max file size.
+#: includes/Importer/Wxr/WXR_Importer.php:2028
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#. translators: %d is post id.
+#: includes/Importer/Wxr/WXR_Importer.php:2061
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#. translators: %1$s is post title, %2$s is post id.
+#: includes/Importer/Wxr/WXR_Importer.php:2077
+msgid "Could not find the post parent for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#. translators: %1$d is post id, %2$d is parent post id.
+#: includes/Importer/Wxr/WXR_Importer.php:2085
+msgid "Post %1$d was imported with parent %2$d, but could not be found"
+msgstr ""
+
+#. translators: %1$s is the post title, %2$s is post id.
+#: includes/Importer/Wxr/WXR_Importer.php:2102
+msgid "Could not find the author for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#. translators: %1$d is post id, %2$s is author slug.
+#: includes/Importer/Wxr/WXR_Importer.php:2110
+msgid "Post %1$d was imported with author \"%2$s\", but could not be found"
+msgstr ""
+
+#. translators: %d is post id.
+#: includes/Importer/Wxr/WXR_Importer.php:2139
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#. translators: %1$s is the post title, %2$s is post id.
+#: includes/Importer/Wxr/WXR_Importer.php:2154
+msgid "Could not update \"%1$s\" (post #%2$d) with mapped data"
+msgstr ""
+
+#. translators: %1$s is the post title, %2$s is post id.
+#: includes/Importer/Wxr/WXR_Importer.php:2208
+msgid "Could not find the menu object for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#. translators: %1$s is post id, %2$s is post object id, %3$s is menu type.
+#: includes/Importer/Wxr/WXR_Importer.php:2216
+msgid "Post %1$d was imported with object \"%2$d\" of type \"%3$s\", but could not be found"
+msgstr ""
+
+#. translators: %d is comment id.
+#: includes/Importer/Wxr/WXR_Importer.php:2247
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#. translators: %1$s is comment id, %2$s is parent comment id.
+#: includes/Importer/Wxr/WXR_Importer.php:2254
+msgid "Comment %1$d was imported with parent %2$d, but could not be found"
+msgstr ""
+
+#. translators: %d is comment id.
+#: includes/Importer/Wxr/WXR_Importer.php:2271
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#. translators: %1$d is comment id, %2$d is author id.
+#: includes/Importer/Wxr/WXR_Importer.php:2278
+msgid "Comment %1$d was imported with author %2$d, but could not be found"
+msgstr ""
+
+#. translators: %d is comment id.
+#: includes/Importer/Wxr/WXR_Importer.php:2298
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: includes/Installer.php:211
+msgid "See Ayyash Theme Prebuilt Templates"
+msgstr ""
+
+#: includes/Installer.php:211
+msgid "Template Library"
+msgstr ""
+
+#: includes/Installer.php:228
+msgid "View documentation"
+msgstr ""
+
+#: includes/Installer.php:228
+msgid "Docs"
+msgstr ""
+
+#: includes/Installer.php:229
+msgid "Visit community forums"
+msgstr ""
+
+#: includes/Installer.php:229
+msgid "Community support"
+msgstr ""
+
+#. translators: 1: class name 2: Log_Handler_Interface
+#: includes/Logger/Logger.php:56
+msgid "The provided handler %1$s does not implement %2$s."
+msgstr ""
+
+#. translators: 1: Logger::log 2: level
+#: includes/Logger/Logger.php:137
+msgid "%1$s was called with an invalid level \"%2$s\"."
+msgstr ""
+
+#: includes/Logger/Log_Handler_File.php:346
+#: includes/Logger/Log_Handler_File.php:365
+msgid "This method should not be called before plugins_loaded."
+msgstr ""
+
+#: includes/Queue/Queue.php:57
+msgid "This function should not be called before plugins_loaded."
+msgstr ""
+
+#. translators: %s: Default class name
+#: includes/Queue/Queue.php:73
+msgid "The class attached to the \"ayyash_studio_queue_class\" does not implement the AyyashStudio\\Queue\\Queue_Interface interface. The default %s class will be used instead."
+msgstr ""
+
+#: includes/Traits/Singleton.php:56
+msgid "Cloning is forbidden."
+msgstr ""
+
+#: includes/Traits/Singleton.php:63
+msgid "Unserializing instances of this class is forbidden."
+msgstr ""
+
+#: build/admin.js:1
+#: src/utilities/http/index.js:43
+#: src/utilities/http/index.js:54
+msgid "Something went wrong. Please try again later."
+msgstr ""
+
+#: build/admin.js:1
+#: src/utilities/http/index.js:207
+msgid "Posts"
+msgstr ""
+
+#: build/admin.js:1
+#: src/utilities/http/index.js:208
+msgid "Terms"
+msgstr ""
+
+#: build/admin.js:1
+#: src/utilities/http/index.js:209
+msgid "WP Forms"
+msgstr ""
+
+#: build/admin.js:1
+#: src/utilities/http/index.js:210
+msgid "CF7 Forms"
+msgstr ""
+
+#: build/admin.js:1
+#: src/utilities/http/index.js:211
+msgid "Medias"
+msgstr ""
+
+#: build/admin.js:1
+#: src/utilities/http/index.js:212
+msgid "Menu Items"
+msgstr ""
+
+#: build/admin.js:1
+#: src/utilities/http/index.js:290
+msgid "✅ Ayyash Theme Installed"
+msgstr ""
+
+#: build/admin.js:1
+#: src/utilities/http/index.js:303
+msgid "✅ Ayyash Theme Activated"
+msgstr ""
+
+#: build/admin.js:1
+#: src/utilities/http/index.js:316
+msgid "✅ Ayyash Theme Updated"
+msgstr ""
+
+#: build/admin.js:1
+#: src/component/Header/index.js:142
+msgid "Search"
+msgstr ""
+
+#: build/admin.js:1
+#: src/component/Header/index.js:158
+msgid "Show My Favorites"
+msgstr ""
+
+#: build/admin.js:1
+#: src/component/Header/index.js:177
+msgid "Sync Library. Shift + Click Force Sync."
+msgstr ""
+
+#: build/admin.js:1
+#: src/component/Breadcrumbs/index.js:8
+#: src/component/Breadcrumbs/index.js:38
+#: src/component/Filter/CategoryMenu.js:85
+msgid "All"
+msgstr ""
+
+#. translators: %s: Category Label
+#: build/admin.js:3
+#: src/component/Filter/CategoryMenu.js:133
+msgid "View all of %s templates"
+msgstr ""
+
+#. translators: %s: Category Label
+#: build/admin.js:5
+#: src/component/Filter/CategoryMenu.js:149
+msgid "View %s templates"
+msgstr ""
+
+#: build/admin.js:5
+#: src/component/Favorite/index.js:8
+msgid "Remove from favorites"
+msgstr ""
+
+#: build/admin.js:5
+#: src/component/Favorite/index.js:8
+msgid "Add to favorites"
+msgstr ""
+
+#: build/admin.js:5
+#: src/component/Templates/ActionButtons.js:10
+msgid "View"
+msgstr ""
+
+#: build/admin.js:5
+#: build/admin.js:80
+#: src/component/Import/index.js:488
+#: src/component/Templates/ActionButtons.js:14
+msgid "Import"
+msgstr ""
+
+#: build/admin.js:5
+#: src/utilities/index.js:84
+msgid "Default Color Palette"
+msgstr ""
+
+#: build/admin.js:5
+#: src/utilities/index.js:85
+msgid "Selected Color Palette"
+msgstr ""
+
+#. translators: %s. Palette Index Number.
+#: build/admin.js:7
+#: src/utilities/index.js:87
+msgid "Color Palette %s"
+msgstr ""
+
+#. translators: %s. Number of views.
+#: build/admin.js:9
+#: src/component/Templates/Footer.js:14
+msgid "Total Views: %s"
+msgstr ""
+
+#. translators: %s. Number of downloads.
+#: build/admin.js:11
+#: src/component/Templates/Footer.js:24
+msgid "Total Downloads: %s"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/Templates/Pagination.js:19
+msgid "← Previous"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/Templates/Pagination.js:20
+msgid "Next →"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/Customizer/Header.js:21
+msgid "Back"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/Customizer/Header.js:29
+msgid "Customize & preview before import. You can update them anytime later."
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/Customizer/Header.js:30
+msgid "Customize & Import"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/Customizer/Header.js:32
+msgid "Reset all customization"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/CustomizeSiteLogo/index.js:132
+msgid "Remove Logo"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/CustomizeSiteLogo/index.js:140
+msgid "Change Logo"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/CustomizeSiteLogo/index.js:144
+msgid "Site Logo"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/CustomizeSiteLogo/index.js:155
+msgid "Don’t have a logo?"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/CustomizeSiteLogo/index.js:156
+msgid "No problem! You can upload it later."
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/CustomizeSiteLogo/index.js:157
+msgid "(Suggested Dimensions: 225x55 pixels)"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/CustomizeSiteLogo/index.js:166
+msgid "Choose/Upload Logo Here"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/CustomizeSiteLogo/index.js:175
+msgid "Logo Width"
+msgstr ""
+
+#: build/admin.js:56
+#: src/component/CustomizeSiteLogo/index.js:182
+msgid "Reset Logo Width"
+msgstr ""
+
+#: build/admin.js:56
+#: src/utilities/index.js:94
+msgid "Default Palette"
+msgstr ""
+
+#: build/admin.js:56
+#: src/utilities/index.js:95
+msgid "Selected Pallet"
+msgstr ""
+
+#. translators: %s. Palette Index Number.
+#: build/admin.js:58
+#: src/utilities/index.js:97
+msgid "Palette %s"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/CustomizeColorPalettes/Palettes.js:110
+msgid "More Colors"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/CustomizeColorPalettes/index.js:16
+#: src/component/CustomizeMore/index.js:35
+#: src/component/Customizer/index.js:174
+msgid "Customize Colors"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/CustomizeColorPalettes/index.js:17
+#: src/component/CustomizeMore/index.js:36
+#: src/component/Customizer/index.js:175
+msgid "Reset Colors"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/CustomizeTypography/FontSelector.js:15
+msgid "Default Font Pair"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/CustomizeTypography/FontSelector.js:15
+msgid "Selected Font Pair"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/CustomizeMore/index.js:52
+#: src/component/Customizer/index.js:199
+#: src/component/CustomizeTypography/index.js:19
+msgid "Customize Typography"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/CustomizeMore/index.js:53
+#: src/component/Customizer/index.js:200
+#: src/component/CustomizeTypography/index.js:20
+msgid "Reset Typography"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Preview/index.js:111
+msgid "Import Full Site"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Import/extras.js:29
+#: src/component/Skeleton/ImporterSkeleton.js:27
+msgid "The following plugins are required and will be installed and activated."
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Skeleton/ImporterSkeleton.js:107
+msgid "Please Wait..."
+msgstr ""
+
+#: build/admin.js:58
+#: build/admin.js:80
+#: src/component/Import/index.js:491
+#: src/component/Skeleton/ImporterSkeleton.js:111
+msgid "Back to Dashboard"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Import/extras.js:15
+msgid "Active"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Import/extras.js:15
+msgid "Inactive"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Import/extras.js:15
+msgid "Missing"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Import/ImportStatus.js:25
+msgid "Congratulations"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Import/ImportStatus.js:28
+msgid "Your website is up and ready!"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Import/ImportStatus.js:57
+msgid "Error while importing demo content."
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Import/ImportStatus.js:58
+msgid "Try again"
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Import/index.js:129
+msgid "Something Went Wrong."
+msgstr ""
+
+#: build/admin.js:58
+#: src/component/Import/index.js:151
+msgid "🚀 Preparing data…"
+msgstr ""
+
+#: build/admin.js:58
+#: src/utilities/http/index.js:218
+msgid "🗑️ Resetting Customizer Data…"
+msgstr ""
+
+#: build/admin.js:58
+#: src/utilities/http/index.js:221
+msgid "🗑️ Resetting Site Options…"
+msgstr ""
+
+#: build/admin.js:58
+#: src/utilities/http/index.js:224
+msgid "🗑️ Resetting Widgets…"
+msgstr ""
+
+#. translators: %s. Data type that being reset.
+#: build/admin.js:60
+#: src/utilities/http/index.js:233
+msgid "🗑️ Deleting %s…"
+msgstr ""
+
+#. translators: %1$s. Data type. %2$s Item (post) ids.
+#: build/admin.js:62
+#: src/utilities/http/index.js:242
+msgid "🗑️ Deleting %1$s: #%2$s"
+msgstr ""
+
+#. translators: %s. Data type.
+#: build/admin.js:64
+#: src/utilities/http/index.js:248
+msgid "🆗 Previously imported %s removed."
+msgstr ""
+
+#: build/admin.js:64
+#: src/component/Import/index.js:162
+msgid "🆗 Reset completed."
+msgstr ""
+
+#: build/admin.js:64
+#: src/component/Import/index.js:165
+msgid ""
+"❗ Error resetting data. Retry after sometime.\n"
+"If this happens more than once, then try manual removal of old content and then restart this import.."
+msgstr ""
+
+#: build/admin.js:64
+#: src/component/Import/index.js:172
+msgid "⌛ Installing Ayyash Theme…"
+msgstr ""
+
+#: build/admin.js:64
+#: src/component/Import/index.js:174
+msgid "⌛ Activating Ayyash Theme…"
+msgstr ""
+
+#: build/admin.js:64
+#: src/component/Import/index.js:178
+msgid "💬 Checking for theme update…"
+msgstr ""
+
+#: build/admin.js:64
+#: src/component/Import/index.js:187
+msgid "⌛ Deactivating Incompatible Plugins…"
+msgstr ""
+
+#: build/admin.js:64
+#: src/component/Import/index.js:190
+msgid "✅ Done Deactivating Incompatible Plugins…"
+msgstr ""
+
+#: build/admin.js:64
+#: src/component/Import/index.js:198
+msgid "🚀 Installing & Activating Required Plugins…"
+msgstr ""
+
+#. translators: %s. Plugin Name.
+#: build/admin.js:66
+#: src/component/Import/index.js:204
+msgid "🚀 Installing %s"
+msgstr ""
+
+#. translators: %s. Plugin Name.
+#: build/admin.js:68
+#: src/component/Import/index.js:210
+msgid "✅ %s Installed"
+msgstr ""
+
+#. translators: %s. Plugin Name.
+#: build/admin.js:70
+#: build/admin.js:74
+#: src/component/Import/index.js:215
+#: src/component/Import/index.js:233
+msgid "⌛ Activating %s"
+msgstr ""
+
+#. translators: %s. Plugin Name.
+#: build/admin.js:72
+#: build/admin.js:76
+#: src/component/Import/index.js:221
+#: src/component/Import/index.js:241
+msgid "✅ %s activated"
+msgstr ""
+
+#. translators: %s. Plugin Name.
+#: build/admin.js:78
+#: src/component/Import/index.js:254
+msgid "💬 Checking update for %s"
+msgstr ""
+
+#. translators: %s. Plugin Name.
+#: build/admin.js:80
+#: src/component/Import/index.js:260
+msgid "✅ %s updated"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:279
+msgid "⌛ Importing customizer data…"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:282
+msgid "✅💄💎 Customizer data imported."
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:293
+msgid "🚀 Preparing XML for importing…"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:296
+msgid "⌛ Importing media & contents…"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:309
+msgid "🚀 Importing widgets…"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:311
+msgid "Widgets data imported."
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:319
+msgid "🚀 Importing Options…"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:321
+msgid "Options imported."
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:333
+msgid "🎨 Applying Customized Settings…"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:335
+msgid "Customized Settings applied."
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:346
+msgid "💯 Done Importing …"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:350
+#: src/component/Import/index.js:363
+msgid "🚮 Cleaning Up…"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:358
+msgid "❗⚠️💔 Import Halted…"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:452
+msgid "Advanced Options"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:457
+msgid "Deactivate Incompatible Plugin"
+msgid_plural "Deactivate Incompatible Plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:459
+msgid "Following plugin will be deactivated"
+msgid_plural "Following plugins will be deactivated"
+msgstr[0] ""
+msgstr[1] ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:465
+msgid "Delete Previously imported contents"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:467
+msgid "Install & Activate Ayyash Theme"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:468
+msgid "Activate Ayyash Theme"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:470
+msgid "Import Customizer Settings"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:473
+msgid "Import Contents"
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:476
+msgid "Import dummy pages, posts, images, and menus."
+msgstr ""
+
+#: build/admin.js:80
+#: src/component/Import/index.js:481
+msgid "Import Widgets"
+msgstr ""
+
+#: src/component/LoaderAnimation/index.js:7
+msgid "Loading data..."
+msgstr ""

@@ -1,0 +1,22 @@
+# Changelog
+
+= 1.0.3 - 2022-08-21 =
+* **Fixed:** Menu responsive issue fixed.
+* **Fixed:** Site view page typography tooltip issue fixed.
+* **Tested:** Elementor 3.7
+* **Tested:** Woocommerce  6.8
+
+= 1.0.2 - 2022-07-31 =
+* **Added:** Contact form 7 support added.
+* **Updated:** PHPCS re-validated and fixed “current_time( 'timestamp' )” warning.
+* **Updated:** Include new prebuild sites in cached json.
+
+= 1.0.1 - 2022-07-26 =
+* **Update:** Reload categories & editors after synchronization.
+* **Update:** Improve color palette.
+* **Fixed:** Infinite reload for after install.
+* **Fixed:** Blank page after install with cached json data for freshly installed sites.
+* **Added:** Tested-upto & minimum required versions.
+
+= 1.0.0 - 2022-07-24 =
+* Initial Release
